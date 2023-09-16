@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  textarea {
+    width: 100%;
+    height: 33.33vh;
+    resize: none;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 200px;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .translated {
+    width: 100%;
+    text-align: center;
+  }

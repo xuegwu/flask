@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="./static/styles.css">
+
+<!-- <div class="container"> -->
+  <form method="post">
+    <textarea name="text"></textarea>
+    <input type="submit" value="翻译" />
+    <input type="button" value="清空显示" onclick="document.querySelector('textarea[name=show]').value = ''" style="margin-top: 30px; width: 200px; height: 20px;" />
+  </form>
+
+  {% if translated_text %}
+  <!-- <div>
+    翻译结果:{{ translated_text }}
+  </div> -->
+  <textarea name="show" readonly>{{ translated_text }}</textarea>
+  {% endif %}
+<!-- </div> -->
+
